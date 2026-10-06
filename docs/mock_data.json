@@ -1,0 +1,35 @@
+{
+  "plans": {
+    "E123": {
+      "plan_name": "Standard EAP",
+      "coverage": {
+        "family_counseling": true,
+        "marriage_counseling": true,
+        "anxiety": true,
+        "depression": true,
+        "substance_use": false,
+        "child_therapy": false
+      }
+    },
+    "E456": {
+      "plan_name": "Premium EAP",
+      "coverage": {
+        "family_counseling": true,
+        "marriage_counseling": true,
+        "anxiety": true,
+        "depression": true,
+        "substance_use": true,
+        "child_therapy": true
+      }
+    }
+  },
+  "providers": [
+    {"name": "Bay Family Counseling", "zip_code": "94107", "specialty": "family_counseling", "phone": "415-555-0101"},
+    {"name": "Mission Family Center", "zip_code": "94107", "specialty": "family_counseling", "phone": "415-555-0102"},
+    {"name": "SoMa Couples Therapy", "zip_code": "94107", "specialty": "marriage_counseling", "phone": "415-555-0103"},
+    {"name": "Calm Mind Clinic", "zip_code": "94103", "specialty": "anxiety", "phone": "415-555-0104"},
+    {"name": "Bright Days Therapy", "zip_code": "94103", "specialty": "depression", "phone": "415-555-0105"},
+    {"name": "Recovery Path", "zip_code": "94110", "specialty": "substance_use", "phone": "415-555-0106"},
+    {"name": "Little Steps Child Therapy", "zip_code": "94110", "specialty": "child_therapy", "phone": "415-555-0107"}
+  ]
+}
