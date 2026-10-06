@@ -61,4 +61,5 @@ Agent:  Yes, your plan covers family counseling. Providers near 94107: ...
 | `docs/mock_data.json` | Mock plans and providers |
 | `cmd/demo/` | Scenario demo using the fake LLM |
 | `cmd/tools/` | Run a single tool by hand |
+| `PROMPT.md` | The prompt used to build this project |
 | `REVIEW_LOG.md` | Code review feedback per slice |
